@@ -22,3 +22,6 @@ main section {
     gap: 10px;
     margin: 10px;
 }
+header {
+    text-align: center;
+}
