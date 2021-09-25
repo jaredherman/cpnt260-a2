@@ -25,3 +25,6 @@ main section {
 header {
     text-align: center;
 }
+i {
+    font-size: clamp(2rem, 10vw, 4rem);
+}
