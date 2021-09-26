@@ -1,55 +1,5 @@
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-article {
-    background-color: red;
-    max width: 20rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-
-    padding: 20px;
-}
-h2 {
-    color: cornflowerblue;
-}
-main section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px;
-}
-header {
-    text-align: center;
-    justify-content: center;
-}
-i {
-    font-size: clamp(2rem, 10vw, 4rem);
-}
 
 
-nav {
-    grid-column: span 2;
-    background-color: grey;
-    color: cornflowerblue;
-}
-aside ul {
-    display: flex;
-}
-main {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
 
-h1 {
-    color: cornflowerblue;
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
+
