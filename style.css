@@ -1,7 +1,26 @@
-.cards {
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border-radius: .5em;
+    padding: 20px;
+    width: 500px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+}
+
+.container>* {
+    padding: 10px;
+    border: 2px solid rgb(95, 97, 110);
+    border-radius: .5em;
+    margin: 0;
+    width: 300px;
 }
 
 
