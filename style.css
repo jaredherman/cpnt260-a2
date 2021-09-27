@@ -17,7 +17,7 @@ body {
 
 .container>* {
     padding: 10px;
-    border: 2px solid rgb(95, 97, 110);
+    border: 2px solid cornflowerblue;
     border-radius: .5em;
     margin: 0;
     width: 300px;
@@ -26,10 +26,19 @@ body {
 nav {
     grid-column: span 2;
     background-color: gray;
+    justify-content: space-between;
+    display: flex;
+}
+.container h2 {
+    color: cornflowerblue;
+}
+.paragraph {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-@media screen and (width: 600px) {
-    min-width: 600px;
+@media screen  {
+    max-width: 600px;
 
 }
 
