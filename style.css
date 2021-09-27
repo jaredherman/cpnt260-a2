@@ -27,7 +27,6 @@ nav {
     grid-column: span 2;
     background-color: gray;
     justify-content: space-between;
-    display: flex;
 }
 .container h2 {
     color: cornflowerblue;
